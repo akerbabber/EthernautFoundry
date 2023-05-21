@@ -4,3 +4,9 @@
 [submodule "Fallback/lib/forge-std"]
 	path = Fallback/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Fallout/lib/forge-std"]
+	path = Fallout/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Fallout/lib/openzeppelin-contracts"]
+	path = Fallout/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
