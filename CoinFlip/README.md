@@ -1,4 +1,4 @@
-# Fallout
+# CoinFlip
 
 Please set the private key in the `.env` file and you instance address in the files `script/CoinFlip.s.sol` and `test/CoinFlip.t.sol`
 
