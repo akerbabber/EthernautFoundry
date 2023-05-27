@@ -19,3 +19,6 @@
 [submodule "Token/lib/forge-std"]
 	path = Token/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Delegation/lib/forge-std"]
+	path = Delegation/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
