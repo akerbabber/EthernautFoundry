@@ -5,7 +5,7 @@ import "forge-std/Test.sol";
 import "../src/King.sol";
 import "../src/Attacker.sol";
 
-contract ForceTest is Test {
+contract KingTest is Test {
     
     address instance = 0xE01d613e4511E78979C41D8a0c3Ca83F056E050E;
 

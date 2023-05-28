@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity ^0.6.0;
 
 import "forge-std/Script.sol";
-import "../src/King.sol";
+import "../src/Re-entrancy.sol";
 import "../src/Attacker.sol";
 
-contract KingScript is Script {
+contract ReentrancyScript is Script {
     
-    address instance = 0xE01d613e4511E78979C41D8a0c3Ca83F056E050E;
+    address instance = 0xAC10925ca9460894cFEC04eE67Cc0E351762C5aB;
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));

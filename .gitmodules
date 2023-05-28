@@ -31,3 +31,9 @@
 [submodule "King/lib/forge-std"]
 	path = King/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Re-entrancy/lib/forge-std"]
+	path = Re-entrancy/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Re-entrancy/lib/openzeppelin-contracts"]
+	path = Re-entrancy/lib/openzeppelin-contracts
+	url = https://github.com/Openzeppelin/openzeppelin-contracts
