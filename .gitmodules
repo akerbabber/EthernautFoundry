@@ -22,3 +22,6 @@
 [submodule "Delegation/lib/forge-std"]
 	path = Delegation/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Force/lib/forge-std"]
+	path = Force/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
