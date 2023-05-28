@@ -4,8 +4,9 @@ pragma solidity ^0.6.0;
 import "forge-std/Script.sol";
 import "../src/Re-entrancy.sol";
 import "../src/Attacker.sol";
+pragma experimental ABIEncoderV2;
 
-contract ReentrancyScript is Script {
+contract ReentranceScript is Script {
     
     address instance = 0xAC10925ca9460894cFEC04eE67Cc0E351762C5aB;
 
