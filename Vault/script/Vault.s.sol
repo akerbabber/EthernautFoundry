@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import "forge-std/Script.sol";
 import "../src/Vault.sol";
 
-contract ForceScript is Script {
+contract VaultScript is Script {
     
     address instance = 0x919119E8eB67056D58E78A64b09f688853F8E326;
 
