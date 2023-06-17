@@ -1,0 +1,14 @@
+No files changed, compilation skipped
+
+Running 1 test for test/GatekeeperOne.t.sol:GatekeeperOneTest
+[32m[PASS][0m test() (gas: 388645919)
+Test result: [32mok[0m. 1 passed; 0 failed; finished in 2.59s
+| src/Attacker.sol:Attacker contract |                 |      |        |      |         |
+|------------------------------------|-----------------|------|--------|------|---------|
+| Deployment Cost                    | Deployment Size |      |        |      |         |
+| 83047                              | 374             |      |        |      |         |
+| Function Name                      | min             | avg  | median | max  | # calls |
+| attack                             | 0               | 3335 | 3428   | 3703 | 100000  |
+
+
+
