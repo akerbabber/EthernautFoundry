@@ -1,0 +1,13 @@
+No files changed, compilation skipped
+[32mScript ran successfully.[0m
+
+== Logs ==
+  0x00000001000018b2
+  Success
+  36726
+[33m
+EIP-3855 is not supported in one or more of the RPCs used.
+Unsupported Chain IDs: 80001.
+Contracts deployed with a Solidity version equal or higher than 0.8.20 might not work properly.
+For more information, please see https://eips.ethereum.org/EIPS/eip-3855[0m
+[2m2023-06-23T23:40:38.985573Z[0m [31mERROR[0m [2mfoundry_evm::executor::fork::init[0m[2m:[0m It looks like you're trying to fork from an older block with a non-archive node which is not supported. Please try to change your RPC url to an archive node if the issue persists.
