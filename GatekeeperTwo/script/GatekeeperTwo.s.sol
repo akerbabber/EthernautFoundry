@@ -10,7 +10,7 @@ contract GatekeeperTwoScript is Script {
         address EOA = vm.rememberKey(vm.envUint("PRIVATE_KEY"));
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
         //GatekeeperTwo gatekeeper = new GatekeeperTwo();
-        Attacker attacker = new Attacker(address(0x54b2A0FB82B401bed625A9faB12F25896b2b4082));
+        Attacker attacker = new Attacker(address(gatekeeperAddress));
         vm.stopBroadcast();
     }
 }

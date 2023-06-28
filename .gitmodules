@@ -52,3 +52,6 @@
 [submodule "NaughtCoin/lib/forge-std"]
 	path = NaughtCoin/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "NaughtCoin/lib/openzeppelin-contracts"]
+	path = NaughtCoin/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
