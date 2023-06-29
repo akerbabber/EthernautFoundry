@@ -61,3 +61,6 @@
 [submodule "Recovery/lib/forge-std"]
 	path = Recovery/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "MagicNumber/lib/forge-std"]
+	path = MagicNumber/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
