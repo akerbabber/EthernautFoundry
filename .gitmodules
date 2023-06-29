@@ -64,3 +64,6 @@
 [submodule "MagicNumber/lib/forge-std"]
 	path = MagicNumber/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "AlienCodex/lib/forge-std"]
+	path = AlienCodex/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
