@@ -67,6 +67,3 @@
 [submodule "AlienCodex/lib/forge-std"]
 	path = AlienCodex/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
-[submodule "AlienCodex/Denial/lib/forge-std"]
-	path = AlienCodex/Denial/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
