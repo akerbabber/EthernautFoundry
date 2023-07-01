@@ -82,3 +82,6 @@
 [submodule "DexTwo/lib/forge-std"]
 	path = DexTwo/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "DexTwo/lib/openzeppelin-contracts"]
+	path = DexTwo/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
