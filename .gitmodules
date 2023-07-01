@@ -73,3 +73,6 @@
 [submodule "Shop/lib/forge-std"]
 	path = Shop/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Dex/lib/forge-std"]
+	path = Dex/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
