@@ -88,3 +88,6 @@
 [submodule "PuzzleWallet/lib/forge-std"]
 	path = PuzzleWallet/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "PuzzleWallet/lib/openzeppelin-contracts"]
+	path = PuzzleWallet/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
