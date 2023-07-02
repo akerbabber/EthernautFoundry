@@ -97,3 +97,6 @@
 [submodule "Motorbike/lib/openzeppelin-contracts"]
 	path = Motorbike/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "DoubleEntryPoint/lib/forge-std"]
+	path = DoubleEntryPoint/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
