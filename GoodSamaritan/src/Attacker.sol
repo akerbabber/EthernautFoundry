@@ -12,6 +12,7 @@ contract Attacker is INotifyable {
     }
 
     function notify(uint256 amount) external override {
+        if(amount == 10)
         revert NotEnoughBalance();
     }
 
