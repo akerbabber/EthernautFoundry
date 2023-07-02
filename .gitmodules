@@ -94,6 +94,3 @@
 [submodule "Motorbike/lib/forge-std"]
 	path = Motorbike/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
-[submodule "Motorbike/lib/openzeppelin-contracts"]
-	path = Motorbike/lib/openzeppelin-contracts
-	url = https://github.com/OpenZeppelin/openzeppelin-contracts
