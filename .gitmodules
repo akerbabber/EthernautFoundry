@@ -100,3 +100,6 @@
 [submodule "DoubleEntryPoint/lib/forge-std"]
 	path = DoubleEntryPoint/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "GoodSamaritan/lib/forge-std"]
+	path = GoodSamaritan/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
